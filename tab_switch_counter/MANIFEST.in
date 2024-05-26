@@ -1,1 +1,1 @@
-recursive-include my_component/frontend/build *
+recursive-include tab_switch_counter/frontend/build *

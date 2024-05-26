@@ -4,11 +4,11 @@ import streamlit.components.v1 as components
 
 tab_switch_counter = components.declare_component(
     "tab_switch_counter",
-    url="http://localhost:3001",
+    url="http://localhost:3001"
 )
 
-# number_of_tab_switches = tab_switch_counter(label="number_of_tab_switches", key="tab_switch_counter")
-# st.write(number_of_tab_switches)
+number_of_tab_switches = tab_switch_counter(label="number_of_tab_switches", key="tab_switch_counter", height=50)
+st.write(number_of_tab_switches)
                                             
 # Create a _RELEASE constant. We'll set this to False while we're developing
 # the component, and True when we're ready to package and distribute it.

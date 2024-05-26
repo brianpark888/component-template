@@ -37,11 +37,11 @@ class TabSwitchCounter extends StreamlitComponentBase<State> {
 
   public render = (): ReactNode => {
     return (
-      <div>
-        <p>Tab Switch Count: {this.state.count}</p>
+      <div style={{ border: '2px solid', borderRadius: '10px', display: 'inline-block', padding: '10px', backgroundColor: '#6003FF', color: 'white', fontWeight: 'bold'}}>
+        <p style={{ margin: '2px'}}>Tab Switch Count: {this.state.count}</p>
       </div>
     );
-  };
+  };  
 }
 
 export default withStreamlitConnection(TabSwitchCounter);
